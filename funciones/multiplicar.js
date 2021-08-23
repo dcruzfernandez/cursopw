@@ -1,5 +1,7 @@
 const fs=require('fs');
 
+
+
 const crearArchivo=(base)=>{
     return new Promise((resolve,reject)=>{
         let salida=`Tabla del ${base}\n`;
